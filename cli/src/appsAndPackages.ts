@@ -1,14 +1,12 @@
 export enum App {
   NEXTJS = "nextjs",
   EXPO = "expo",
-  CHORME_EXTENSION = "chrome",
 }
 
 export enum Package {
   API = "api",
   AUTH = "auth",
   DB = "db",
-  UI = "ui",
   CONFIG = "config",
 }
 
