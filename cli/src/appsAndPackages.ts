@@ -25,3 +25,6 @@ export const REQUIRED_PACKAGES = [
   Package.DB,
   Package.CONFIG,
 ];
+
+export const availableApps = Object.values(App) as App[];
+export const availablePackages = Object.values(Package) as Package[];
