@@ -1,7 +1,9 @@
 packages:
-  - apps/expo
-  - apps/nextjs
-  - packages/api
-  - packages/auth
-  - packages/db
-  - packages/config/*
+  - cli
+  - cli/template
+  - cli/template/apps/expo
+  - cli/template/apps/nextjs
+  - cli/template/packages/api
+  - cli/template/packages/auth
+  - cli/template/packages/db
+  - cli/template/packages/config/*

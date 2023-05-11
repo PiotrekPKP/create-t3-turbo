@@ -3,7 +3,8 @@ const { getDefaultConfig } = require("@expo/metro-config");
 const path = require("path");
 
 const projectRoot = __dirname;
-const workspaceRoot = path.resolve(projectRoot, "../..");
+const ROOT_DIR = "../../../..";
+const workspaceRoot = path.resolve(projectRoot, ROOT_DIR);
 
 // Create the default Metro config
 const config = getDefaultConfig(projectRoot);
